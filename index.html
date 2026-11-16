@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nikhil C | Senior .NET Full-Stack Developer</title>
-  <meta name="description" content="Resume & Portfolio of Nikhil C — Senior .NET Full-Stack Developer specializing in ASP.NET Core, MVC, Web API, Angular, Dapper, and SQL Server." />
+  <meta name="description" content="Resume & Portfolio of Nikhil C — Senior .NET Full-Stack Developer specializing in .NET 8 / .NET 6, ASP.NET Core, Clean Architecture, Microservices, FinTech, ERP, and Cloud." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -59,7 +59,7 @@
 
     /* Floating Action Bar */
     .toolbar {
-      max-width: 1024px;
+      max-width: 1080px;
       margin: 0 auto 1.25rem;
       display: flex;
       justify-content: flex-end;
@@ -103,7 +103,7 @@
 
     /* Main Resume Container */
     .resume-container {
-      max-width: 1024px;
+      max-width: 1080px;
       margin: 0 auto;
       background: var(--bg-card);
       border-radius: 1rem;
@@ -180,7 +180,7 @@
     /* Layout Grid */
     .resume-body {
       display: grid;
-      grid-template-columns: 1fr 310px;
+      grid-template-columns: 1fr 320px;
     }
 
     .main-column {
@@ -223,7 +223,7 @@
 
     .summary-text {
       color: var(--text-secondary);
-      font-size: 0.96rem;
+      font-size: 0.95rem;
       line-height: 1.7;
     }
 
@@ -294,7 +294,7 @@
     .job-bullets li {
       position: relative;
       padding-left: 1.1rem;
-      font-size: 0.92rem;
+      font-size: 0.91rem;
       color: var(--text-secondary);
     }
 
@@ -310,11 +310,11 @@
     .projects-grid {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 1rem;
+      gap: 1.15rem;
     }
 
     .project-card {
-      padding: 1.1rem 1.25rem;
+      padding: 1.2rem 1.35rem;
       border-radius: 0.65rem;
       border: 1px solid var(--border);
       background: var(--bg-subtle);
@@ -327,14 +327,15 @@
 
     .project-top {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
       gap: 0.5rem;
-      margin-bottom: 0.4rem;
+      margin-bottom: 0.45rem;
     }
 
     .project-name {
-      font-size: 0.98rem;
+      font-size: 1rem;
       font-weight: 700;
       color: var(--text-primary);
     }
@@ -345,14 +346,37 @@
       color: var(--text-muted);
       border: 1px solid var(--border);
       background: var(--bg-card);
-      padding: 0.15rem 0.5rem;
+      padding: 0.15rem 0.55rem;
       border-radius: 0.35rem;
     }
 
     .project-desc {
       font-size: 0.88rem;
       color: var(--text-secondary);
-      margin-bottom: 0.65rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .project-bullets {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.38rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .project-bullets li {
+      position: relative;
+      padding-left: 1rem;
+      font-size: 0.86rem;
+      color: var(--text-secondary);
+    }
+
+    .project-bullets li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: bold;
     }
 
     .tech-tags {
@@ -363,7 +387,7 @@
 
     .tech-tag {
       font-family: 'JetBrains Mono', monospace;
-      font-size: 0.72rem;
+      font-size: 0.71rem;
       font-weight: 500;
       color: var(--accent);
       background: var(--bg-badge);
@@ -390,16 +414,16 @@
     .skill-pills {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.4rem;
+      gap: 0.38rem;
     }
 
     .skill-pill {
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       font-weight: 500;
       color: var(--text-secondary);
       background: var(--bg-card);
       border: 1px solid var(--border);
-      padding: 0.25rem 0.6rem;
+      padding: 0.22rem 0.55rem;
       border-radius: 0.375rem;
     }
 
@@ -439,7 +463,7 @@
       display: flex;
       flex-direction: column;
       gap: 0.55rem;
-      font-size: 0.86rem;
+      font-size: 0.85rem;
       color: var(--text-secondary);
     }
 
@@ -514,7 +538,7 @@
       }
 
       .resume-header {
-        padding: 1.75rem 2rem;
+        padding: 1.5rem 2rem;
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
       }
@@ -524,7 +548,7 @@
       }
 
       .main-column, .side-column {
-        padding: 1.5rem;
+        padding: 1.4rem;
       }
 
       .project-card, .timeline-item, .edu-item {
@@ -559,7 +583,7 @@
     <header class="resume-header">
       <div class="header-info">
         <h1>NIKHIL C</h1>
-        <p class="header-role">Senior .NET Full-Stack Developer</p>
+        <p class="header-role">Senior .NET Full-Stack Developer · FinTech, Enterprise ERP &amp; Cloud</p>
         <div class="contact-grid">
           <a href="mailto:nikhilc555@gmail.com" class="contact-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -607,7 +631,7 @@
             Professional Summary
           </h2>
           <p class="summary-text">
-            Results-driven <strong>Senior .NET Full-Stack Developer</strong> with <strong>10+ years</strong> of industry experience architecting, developing, and maintaining enterprise web applications, RESTful APIs, Fintech payment platforms, and ERP systems. Proficient in modern .NET ecosystems (<strong>ASP.NET Core, .NET 6, MVC, Razor Pages, Web API, Dapper</strong>), front-end SPA frameworks (<strong>Angular, JavaScript, jQuery</strong>), and relational databases (<strong>MS SQL Server, MySQL</strong>). Adept at managing full software development lifecycles, database optimization, third-party ERP integrations, and cloud deployments on AWS and IIS.
+            Results-driven <strong>Senior .NET Full-Stack Developer</strong> with <strong>10+ years</strong> of experience architecting, building, and scaling enterprise FinTech platforms, B2B retail &amp; POS ecosystems, high-traffic cinema booking engines, and statutory HRMS/ERP systems. Deep expertise in <strong>.NET 8 / .NET 6 (ASP.NET Core Web API, MVC, Razor Pages)</strong>, <strong>Clean / Onion Architecture</strong>, <strong>Dapper &amp; EF Core</strong>, <strong>Angular</strong>, <strong>MS SQL Server (Read/Write Replicas)</strong>, <strong>Redis</strong>, <strong>Hangfire</strong>, <strong>WebSockets</strong>, and <strong>AWS (EC2, RDS, S3, CloudFront)</strong>. Proven track record in regulatory compliance (Saudi ZATCA Phase 2 E-Invoicing, Indian Labor Law §7(3)), third-party telecom/payment integrations, and AI-powered business intelligence.
           </p>
         </section>
 
@@ -630,11 +654,12 @@
               </div>
               <div class="job-company">Tekosol IT Solutions Pvt. Ltd.</div>
               <ul class="job-bullets">
-                <li>Architect and develop scalable enterprise products and web applications using <strong>ASP.NET Core (.NET 6.0 / 3.1)</strong>, <strong>ASP.NET MVC</strong> (Razor Views &amp; JavaScript), <strong>Razor Pages</strong>, and <strong>Angular</strong> for Single Page Applications (SPAs).</li>
-                <li>Design and build secure, high-throughput RESTful services using <strong>ASP.NET Web API</strong> and <strong>Dapper Micro-ORM</strong> for optimized data access across <strong>MS SQL Server 2019</strong> and <strong>MySQL</strong> databases.</li>
-                <li>Lead development and maintenance of the <strong>Modern Payment (EpaySystem)</strong> platform, comprising the <code>EpayAdmin</code> management portal (ASP.NET MVC .NET 6.0) and <code>EpayAPI</code> back-end services.</li>
-                <li>Developed and maintained modules for the <strong>VTravel</strong> platform (<code>VTravel.Admin</code> and <code>VTravel.CustomerWeb</code>), managing release builds, database schema migrations, and version control via GitHub.</li>
-                <li>Spearhead UAT staging and production releases across <strong>AWS EC2</strong> Windows server environments and <strong>Amazon RDS (SQL Server)</strong> instances, ensuring zero-downtime updates and rigorous backup compliance.</li>
+                <li><strong>Enterprise Architecture &amp; High-Throughput APIs:</strong> Architected and developed mission-critical platforms in <strong>.NET 8 and .NET 6 (ASP.NET Core Web API, MVC, Razor Pages)</strong> and <strong>Angular</strong> utilizing Clean/Onion Architecture, CQRS, <strong>Dapper</strong>, and <strong>Entity Framework Core</strong>.</li>
+                <li><strong>FinTech, E-Wallet &amp; Telecom Distribution (EPay &amp; Rakaza):</strong> Built multi-tenant digital wallet engines (<code>Epay.Wallet</code>) with idempotency safeguards, <strong>Hangfire</strong> asynchronous voucher allocation queues, <strong>Saudi ZATCA Phase 2 E-Invoicing</strong> (ECDSA SHA-256 cryptographic signing), and international telecom integrations (<strong>STC Direct &amp; DingConnect</strong>).</li>
+                <li><strong>Real-Time Infrastructure &amp; AI Analytics:</strong> Engineered a custom low-overhead <strong>WebSocket</strong> middleware for real-time Android POS synchronization and built a multi-provider <strong>GenAI Reporting Engine</strong> (Gemini, OpenAI, Groq, Ollama) converting natural-language queries into SQL analytics and Excel exports.</li>
+                <li><strong>High-Traffic Cinema CMS &amp; Distributed Caching (Ozone Cinemas):</strong> Integrated <strong>Vista &amp; Veezi Cinema APIs</strong> and <strong>MyFatoorah</strong> payment webhooks with <strong>Redis</strong> distributed caching, background sync worker services, and <strong>AWS S3 / CloudFront CDN</strong> acceleration.</li>
+                <li><strong>HRMS Payroll Reconciliation Engine (Tek-HRMS):</strong> Architected a bi-directional Unsettled Attendance &amp; Retroactive Payroll Reconciliation Engine enforcing statutory compliance (<strong>§7(3) Payment of Wages Act</strong>), reducing employee pay disputes by 95% and automating 100% of cross-cycle salary adjustments.</li>
+                <li><strong>Performance, Security &amp; Cloud DevOps:</strong> Implemented SQL Server Read/Write replica splitting, executed <strong>k6 stress/load tests</strong>, led VAPT security remediations (JWT refresh token rotation, OAuth 2.0, RBAC), and managed deployments across <strong>AWS (EC2, RDS, S3, CloudFront, VPC)</strong>.</li>
               </ul>
             </div>
 
@@ -685,7 +710,7 @@
           </div>
         </section>
 
-        <!-- Key Projects -->
+        <!-- Featured Projects -->
         <section class="section">
           <h2 class="section-title">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -693,78 +718,130 @@
               <polyline points="2 17 12 22 22 17"></polyline>
               <polyline points="2 12 12 17 22 12"></polyline>
             </svg>
-            Key Projects Highlight
+            Featured Enterprise Projects
           </h2>
 
           <div class="projects-grid">
+            <!-- 1. EPay -->
             <div class="project-card">
               <div class="project-top">
-                <span class="project-name">Modern Payment Platform (EpaySystem – EpayAdmin &amp; EpayAPI)</span>
+                <span class="project-name">EPay — Enterprise FinTech, Digital Voucher &amp; Payment Distribution Platform</span>
                 <span class="project-company-tag">Tekosol IT Solutions</span>
               </div>
               <p class="project-desc">
-                Enterprise electronic payment administration portal and RESTful API suite built on .NET 6.0. Features complete transaction lifecycle management, administrative controls, structured database migration workflows, and multi-environment deployment across AWS EC2 and Amazon RDS.
+                High-throughput digital voucher distribution, multi-tenant e-wallet, and POS payment ecosystem serving web and Android POS terminals.
               </p>
+              <ul class="project-bullets">
+                <li>Implemented asynchronous background voucher allocation pipelines using <strong>Hangfire</strong> and load-resilient order state machines (<code>PENDING</code>, <code>PROCESSING</code>, <code>CONFIRMED</code>, <code>FAILED</code>) with automatic rollback recovery.</li>
+                <li>Designed the multi-tenant digital wallet subsystem (<code>Epay.Wallet</code>) enforcing atomic balance debits, credit limits, and idempotency keys to eliminate double-spending under high concurrency.</li>
+                <li>Integrated international telecom top-up providers (<strong>STC Direct Channels &amp; DingConnect</strong>) with exponential backoff and dedicated audit logging (<code>epay_logs_db</code>).</li>
+                <li>Implemented <strong>SQL Server Read/Write Splitting</strong> (primary <code>epay_db</code> + reporting replica <code>epay_rpt_db</code>), benchmarked throughput using <strong>k6 load testing</strong>, and managed <strong>AWS EC2/RDS</strong> infrastructure.</li>
+              </ul>
               <div class="tech-tags">
-                <span class="tech-tag">.NET 6.0</span>
-                <span class="tech-tag">ASP.NET MVC</span>
-                <span class="tech-tag">ASP.NET Web API</span>
-                <span class="tech-tag">Dapper</span>
-                <span class="tech-tag">SQL Server 2019</span>
+                <span class="tech-tag">.NET 6</span>
+                <span class="tech-tag">ASP.NET Core Web API &amp; MVC</span>
+                <span class="tech-tag">Hangfire</span>
+                <span class="tech-tag">SQL Server Replicas</span>
+                <span class="tech-tag">k6 Load Testing</span>
+                <span class="tech-tag">STC &amp; DingConnect</span>
+                <span class="tech-tag">JWT &amp; OAuth 2.0</span>
                 <span class="tech-tag">AWS EC2 &amp; RDS</span>
               </div>
             </div>
 
+            <!-- 2. Rakaza -->
             <div class="project-card">
               <div class="project-top">
-                <span class="project-name">VTravel Portal Suite &amp; Enterprise SPA Products</span>
+                <span class="project-name">Rakaza — Enterprise B2B Retail, Distribution &amp; POS Ecosystem</span>
                 <span class="project-company-tag">Tekosol IT Solutions</span>
               </div>
               <p class="project-desc">
-                Full-stack travel management administration (<code>VTravel.Admin</code>) and customer web platform (<code>VTravel.CustomerWeb</code>), alongside modern Single Page Applications built with Angular, ASP.NET Core Razor Pages, Dapper Micro-ORM, and MySQL/MSSQL backends.
+                Multi-tier enterprise distribution and point-of-sale platform powering Stock Transfer Orders (STO), regulatory e-invoicing, real-time POS synchronization, and GenAI business intelligence.
               </p>
+              <ul class="project-bullets">
+                <li>Implemented <strong>Saudi ZATCA Phase 2 E-Invoicing</strong> compliance featuring PKCS#8 private key parsing, ECDSA SHA-256 cryptographic invoice hashing, and compliant tax QR generation.</li>
+                <li>Engineered a custom raw <strong>WebSocket communication engine</strong> (<code>WebSocketHandlerMiddleware</code>) with socket multiplexing and JSON acknowledgements for real-time Android POS sync.</li>
+                <li>Built an <strong>AI-Powered Reporting Engine</strong> (<code>AiReportService</code>) integrating <strong>Google Gemini, OpenAI, Groq, and Ollama</strong> to translate natural-language store manager queries into SQL analytics and Excel reports.</li>
+                <li>Hardened platform security through sliding JWT refresh token rotation, granular RBAC, and comprehensive <strong>VAPT</strong> remediation.</li>
+              </ul>
               <div class="tech-tags">
-                <span class="tech-tag">Angular</span>
-                <span class="tech-tag">ASP.NET Core</span>
-                <span class="tech-tag">Razor Pages</span>
+                <span class="tech-tag">.NET 6</span>
                 <span class="tech-tag">Dapper</span>
-                <span class="tech-tag">MSSQL</span>
-                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">SQL Server</span>
+                <span class="tech-tag">WebSockets</span>
+                <span class="tech-tag">ZATCA E-Invoicing (ECDSA)</span>
+                <span class="tech-tag">GenAI (Gemini / OpenAI / Groq)</span>
+                <span class="tech-tag">Android POS</span>
               </div>
             </div>
 
+            <!-- 3. Ozone Cinemas -->
             <div class="project-card">
               <div class="project-top">
-                <span class="project-name">CRM, Hospitality ERP &amp; Tally Integration Suite</span>
-                <span class="project-company-tag">Camet IT Solutions</span>
+                <span class="project-name">Ozone Cinemas — Enterprise Cinema Booking &amp; Content Management System</span>
+                <span class="project-company-tag">Tekosol IT Solutions</span>
               </div>
               <p class="project-desc">
-                End-to-end CRM (Enquiry, Quotation, Order, Inventory) and Hotel &amp; Restaurant Management applications with custom REST APIs for automated accounting synchronization into Tally ERP.
+                High-concurrency cinema ticketing platform, admin CMS, and REST API built on .NET 8 and Clean / Onion Architecture.
+              </p>
+              <ul class="project-bullets">
+                <li>Integrated global cinema ERPs (<strong>Vista Cinema API &amp; Veezi API</strong>) for real-time showtime scheduling, dynamic seat layout mapping, concurrency-safe seat locking, and seat swap/upgrade workflows.</li>
+                <li>Engineered distributed caching with <strong>Redis (StackExchange.Redis)</strong>, high-speed <strong>Dapper</strong> queries, and standalone .NET Background Worker Services (<code>DataSyncWorkerService</code>) for non-blocking POS sync.</li>
+                <li>Integrated <strong>MyFatoorah</strong> payment gateway with webhook signature verification, automated refunds, <strong>AWS S3 &amp; CloudFront CDN</strong> media pipelines, and <strong>RouteMobile SMS/WhatsApp</strong> e-ticket alerts.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">.NET 8</span>
+                <span class="tech-tag">Clean / Onion Architecture</span>
+                <span class="tech-tag">CQRS</span>
+                <span class="tech-tag">Dapper</span>
+                <span class="tech-tag">Redis</span>
+                <span class="tech-tag">AWS S3 &amp; CloudFront</span>
+                <span class="tech-tag">Vista &amp; Veezi API</span>
+                <span class="tech-tag">MyFatoorah</span>
+              </div>
+            </div>
+
+            <!-- 4. Tek-HRMS -->
+            <div class="project-card">
+              <div class="project-top">
+                <span class="project-name">Tek-HRMS — Unsettled Attendance &amp; Retroactive Payroll Reconciliation Engine</span>
+                <span class="project-company-tag">Tekosol IT Solutions</span>
+              </div>
+              <p class="project-desc">
+                Enterprise payroll reconciliation and statutory compliance engine eliminating manual payroll adjustments across consecutive billing cycles.
+              </p>
+              <ul class="project-bullets">
+                <li>Engineered a <strong>Grace Salary Protection Framework</strong> and dynamic daily wage algorithm that reduced employee pay disputes by <strong>95%</strong> while automating retroactive arrear compensation in Month <code>N+1</code>.</li>
+                <li>Enforced strict <strong>Labor Law Compliance (§7(3) Payment of Wages Act)</strong> via an automated statutory rule guard validating monthly deductions against a 50% gross wage ceiling and net pay floor.</li>
+                <li>Developed a multi-stage <strong>Salary Advance &amp; Relief Approval Workflow</strong> (HR &rarr; Manager &rarr; Finance), live multi-bucket leave inspection, and pre-committed multi-month recovery installment ledgers with Full &amp; Final (F&amp;F) exit safeguards.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tech-tag">ASP.NET Core 8</span>
+                <span class="tech-tag">Entity Framework Core</span>
+                <span class="tech-tag">C#</span>
+                <span class="tech-tag">SQL Server</span>
+                <span class="tech-tag">Statutory Compliance</span>
+                <span class="tech-tag">Bootstrap 5</span>
+                <span class="tech-tag">ClosedXML</span>
+              </div>
+            </div>
+
+            <!-- 5. Earlier ERP & CRM Suite -->
+            <div class="project-card">
+              <div class="project-top">
+                <span class="project-name">CRM, Hospitality ERP, Tally Integration &amp; NBFC Financial Suite</span>
+                <span class="project-company-tag">Camet IT &amp; Pooram Finserve</span>
+              </div>
+              <p class="project-desc">
+                Full-stack CRM (Enquiry, Quotation, Order, Inventory), Hotel &amp; Restaurant ERP with automated Tally ERP REST APIs, and NBFC Double-Entry Accounting &amp; Biometric HRM systems.
               </p>
               <div class="tech-tags">
                 <span class="tech-tag">ASP.NET Core</span>
-                <span class="tech-tag">Web API</span>
-                <span class="tech-tag">Tally ERP API</span>
-                <span class="tech-tag">jQuery &amp; AJAX</span>
-                <span class="tech-tag">SQL Server</span>
-                <span class="tech-tag">IIS</span>
-              </div>
-            </div>
-
-            <div class="project-card">
-              <div class="project-top">
-                <span class="project-name">Financial &amp; HRM Enterprise ERP System</span>
-                <span class="project-company-tag">Pooram Finserve</span>
-              </div>
-              <p class="project-desc">
-                Comprehensive NBFC ERP platform featuring Double-Entry Accounting (Trial Balance, Balance Sheet, Ledgers, Vouchers), HRM &amp; Payroll with biometric attendance device integration, and loan management support.
-              </p>
-              <div class="tech-tags">
                 <span class="tech-tag">.NET Framework 4.5</span>
-                <span class="tech-tag">C#</span>
-                <span class="tech-tag">WinForms</span>
-                <span class="tech-tag">SQL Server 2012</span>
+                <span class="tech-tag">Tally ERP API</span>
+                <span class="tech-tag">SQL Server</span>
                 <span class="tech-tag">Crystal Reports</span>
+                <span class="tech-tag">IIS</span>
               </div>
             </div>
           </div>
@@ -789,13 +866,25 @@
             <div class="skill-group-title">Backend &amp; Frameworks</div>
             <div class="skill-pills">
               <span class="skill-pill">C#</span>
-              <span class="skill-pill">ASP.NET Core</span>
-              <span class="skill-pill">.NET 6.0 / 3.1</span>
-              <span class="skill-pill">ASP.NET MVC</span>
-              <span class="skill-pill">ASP.NET Web API</span>
+              <span class="skill-pill">.NET 8 / .NET 6</span>
+              <span class="skill-pill">ASP.NET Core Web API</span>
+              <span class="skill-pill">ASP.NET Core MVC</span>
               <span class="skill-pill">Dapper ORM</span>
-              <span class="skill-pill">.NET Framework 4.5</span>
-              <span class="skill-pill">Windows Forms</span>
+              <span class="skill-pill">Entity Framework Core</span>
+              <span class="skill-pill">Hangfire</span>
+              <span class="skill-pill">Worker Services</span>
+              <span class="skill-pill">WebSockets</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-title">Architecture &amp; Patterns</div>
+            <div class="skill-pills">
+              <span class="skill-pill">Clean / Onion Architecture</span>
+              <span class="skill-pill">CQRS &amp; Repository</span>
+              <span class="skill-pill">Idempotent State Machines</span>
+              <span class="skill-pill">Read/Write DB Splitting</span>
+              <span class="skill-pill">RESTful Microservices</span>
             </div>
           </div>
 
@@ -806,31 +895,45 @@
               <span class="skill-pill">Razor Pages &amp; Views</span>
               <span class="skill-pill">JavaScript (ES6+)</span>
               <span class="skill-pill">jQuery &amp; AJAX</span>
-              <span class="skill-pill">HTML5</span>
-              <span class="skill-pill">CSS3</span>
+              <span class="skill-pill">Bootstrap 5 / Grid.js</span>
+              <span class="skill-pill">HTML5 &amp; CSS3</span>
             </div>
           </div>
 
           <div class="skill-group">
-            <div class="skill-group-title">Databases</div>
+            <div class="skill-group-title">Databases &amp; Caching</div>
             <div class="skill-pills">
               <span class="skill-pill">MS SQL Server (2012–2019)</span>
+              <span class="skill-pill">Redis (StackExchange)</span>
               <span class="skill-pill">MySQL</span>
               <span class="skill-pill">Amazon RDS</span>
-              <span class="skill-pill">T-SQL / Stored Procs</span>
+              <span class="skill-pill">T-SQL &amp; Query Tuning</span>
             </div>
           </div>
 
           <div class="skill-group">
-            <div class="skill-group-title">Tools, Cloud &amp; DevOps</div>
+            <div class="skill-group-title">Domain, AI &amp; Integrations</div>
             <div class="skill-pills">
-              <span class="skill-pill">Visual Studio 2022</span>
-              <span class="skill-pill">SSMS 18+</span>
-              <span class="skill-pill">Git &amp; GitHub</span>
-              <span class="skill-pill">AWS EC2</span>
-              <span class="skill-pill">IIS Hosting</span>
-              <span class="skill-pill">Crystal Reports</span>
+              <span class="skill-pill">ZATCA Phase 2 E-Invoicing</span>
+              <span class="skill-pill">GenAI (Gemini, OpenAI, Groq)</span>
+              <span class="skill-pill">STC &amp; DingConnect</span>
+              <span class="skill-pill">Vista &amp; Veezi Cinema API</span>
+              <span class="skill-pill">MyFatoorah Gateway</span>
+              <span class="skill-pill">RouteMobile SMS/WhatsApp</span>
               <span class="skill-pill">Tally ERP API</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-title">Cloud, Security &amp; Testing</div>
+            <div class="skill-pills">
+              <span class="skill-pill">AWS (EC2, RDS, S3, CloudFront)</span>
+              <span class="skill-pill">k6 Load &amp; Stress Testing</span>
+              <span class="skill-pill">JWT &amp; OAuth 2.0</span>
+              <span class="skill-pill">VAPT &amp; RBAC</span>
+              <span class="skill-pill">Serilog</span>
+              <span class="skill-pill">IIS Hosting</span>
+              <span class="skill-pill">Git &amp; GitHub</span>
             </div>
           </div>
         </section>
@@ -888,10 +991,10 @@
             Core Strengths
           </h2>
           <ul class="list-compact">
-            <li><span class="bullet">▪</span> Analytical Problem Solving &amp; Debugging</li>
-            <li><span class="bullet">▪</span> End-to-End ERP &amp; Fintech Architecture</li>
-            <li><span class="bullet">▪</span> Production Deployment &amp; Release Management</li>
-            <li><span class="bullet">▪</span> Team Collaboration &amp; Client Support</li>
+            <li><span class="bullet">▪</span> High-Concurrency FinTech &amp; E-Wallet Systems</li>
+            <li><span class="bullet">▪</span> Regulatory Compliance (ZATCA &amp; Labor Laws)</li>
+            <li><span class="bullet">▪</span> Performance Engineering &amp; Cloud Architecture</li>
+            <li><span class="bullet">▪</span> End-to-End ERP, HRMS &amp; POS Integrations</li>
           </ul>
         </section>
 
@@ -937,4 +1040,3 @@
   </script>
 </body>
 </html>
-

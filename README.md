@@ -3,13 +3,14 @@
 This repository hosts the online HTML resume and portfolio of **Nikhil C**.
 
 ## Live Resume (GitHub Pages)
-Once pushed to GitHub:
-1. Go to your repository **Settings** → **Pages**.
-2. Under **Build and deployment**, select **Deploy from a branch**.
-3. Choose the `main` branch and `/ (root)` folder, then click **Save**.
-4. Your resume will be live at `https://nikhilc555.github.io/nikhilc.github.io/` (or `https://nikhilc555.github.io/` if renamed to `Nikhilc555.github.io`).
+🔗 **https://nikhilc555.github.io/**
+
+## Featured Enterprise Projects
+- **EPay** — Enterprise FinTech, Digital Voucher & Payment Distribution Platform (`.NET 6`, `Hangfire`, `SQL Server Replicas`, `k6`, `AWS EC2/RDS`, `STC & DingConnect`)
+- **Rakaza** — Enterprise B2B Retail, Distribution & POS Ecosystem (`.NET 6`, `Dapper`, `WebSockets`, `Saudi ZATCA Phase 2 E-Invoicing`, `GenAI Multi-LLM Reporting`)
+- **Ozone Cinemas** — Enterprise Cinema Booking & Content Management System (`.NET 8`, `Clean/Onion Architecture`, `Redis`, `AWS S3/CloudFront`, `Vista & Veezi APIs`, `MyFatoorah`)
+- **Tek-HRMS** — Unsettled Attendance & Retroactive Payroll Reconciliation Engine (`.NET 8`, `EF Core`, `Statutory Compliance §7(3)`, `Multi-Month Recovery Ledgers`)
 
 ## Files Included
 - `index.html` — Responsive, print-ready HTML5/CSS3 resume with Light/Dark mode toggle and one-click PDF export.
-- `profile.jpg` — Profile photograph extracted from the previous resume.
-
+- `profile.jpg` — Profile photograph.
